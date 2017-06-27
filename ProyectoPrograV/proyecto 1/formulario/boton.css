@@ -1,0 +1,26 @@
+input[type="submit"]{
+  color:white;
+  background-color:black;
+  padding: 15px 15px;
+  
+  
+}
+input[type="reset"]{
+  color:white;
+  background-color:black;
+  padding: 15px 15px;
+  
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border:solid;
+}

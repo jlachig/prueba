@@ -1,0 +1,20 @@
+
+p{
+
+display: inline-block;
+ line-height: 1em;
+   
+}
+.reloj, .fecha{
+    
+    color:white;
+}
+
+ .reloj:hover{
+    
+    color:gold;
+}
+.fecha:hover{
+    
+    color:gold;
+}

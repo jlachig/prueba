@@ -1,0 +1,79 @@
+.todos{
+    
+    background-color: aquamarine;
+    z-index: -1;
+}
+*{
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;    
+    
+}
+form.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+}
+h1.titulo{
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0,0,0,0.7);
+    padding: 20px 50px;
+    
+}
+.ingreso, .labels, .boton {
+    
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    
+}
+.ingreso{
+    padding: 22px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+   background: rgba(0,0,0, 0.1)
+}
+
+.ingreso:focus{
+    
+    outline: 1px solid rgba(0,0,0,0.7);
+    
+}
+
+.ingreso:focus + .labels{
+    
+ margin-top: -135px;   
+ color:goldenrod;
+}
+
+.labels{
+   
+   padding-left: 30px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -10;
+    color: rgba(0,0,0,0.5)   
+     transition: all 0.2s;
+}
+.boton{
+    
+    background: black;
+    color:white;
+   padding: 15px 15px;
+    cursor: pointer;
+    border: none;
+	text-decoration: none;
+ } 
+.fijar{
+    
+    margin-top: -135px;
+    color:gold;
+}
